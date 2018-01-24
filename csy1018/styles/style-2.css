@@ -1,0 +1,226 @@
+body{
+  background-size: cover;
+  background-size: fixed;
+  background-attachment: fixed;
+  background-color: black;
+  margin:0;
+  padding: 0;
+  border: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+body{ 
+      
+      background-color:whitesmoke;
+    }
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    transform: translateX(250px);
+    overflow-y: auto;
+    background: wheat;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+
+    font-size: 26px;
+}
+.bio{
+    width: 520px;
+    margin: 0px auto;
+    text-align: left;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color:black;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: black;
+    background: rgb(248, 147, 26);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-weight: bold;
+    line-height: 55px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: black;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #ffffff;
+    background:  rgb(248, 147, 26);
+}
+
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+
+.toggle {
+  margin: 5px 5px 0 0;
+}
+.btn-default{
+  border-radius: 100%;
+}
+
+
+.container{
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding-top: 250px;
+}
+
+
+.myteam{
+  text-align: center;
+  color: black;
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+
+.centerline {
+  width: 250px;
+  height: 6px;
+  background-color: black;
+  margin: 0px auto;
+}
+.seye{
+  border-radius: 50%;
+}
+.fa{
+    color:black;
+}
+.sidebar-brand{
+    font-size: 32px;
+} 
+
+.circlebar{
+    background-color: white;
+    color:black;
+    padding:25px;
+    border-radius: 90%;
+    margin:15px;
+}
+.myname{
+    font-size:37px;
+}
+
+.proffesion{
+font-size:37px;
+}
+
+.seye:hover{
+
+      -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+#linkbox{
+  padding: 20px 0 0px;
+  background: #ffffff;
+}
+
+.section-title{
+  padding: 40px 0;
+}
+.text-center{
+    text-align: center;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+h3 {
+    margin-top:-230px ;
+    margin-bottom: 10px;
+}
+.Portfolio{
+    color:black;
+    font-size: 70px;
+
+}
+ strong {
+    font-weight: 700;
+    font-size: 37px;
+ }
+
+input[type=text], select, textarea {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.ul{
+    position:25px;
+}

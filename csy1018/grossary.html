@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> </title>
+
+  <link href="styles/style-2.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <a id="menu-toggle" href="" class="">
+    <i class="fa fa-bars fa-5x circlebar"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="" class="btn btn-default btn-lg pull-right toggle">
+        <i class="fa fa-times"></i>
+
+      </a>
+      <li class="sidebar-brand">
+        <a href="index.html" onclick=$(menu-close).click();>Home</a>
+      </li>
+      <li>
+        <a href="grossary.html" onclick=$(menu-open).click();>Glossary</a>
+      </li>
+      <li>
+        <a href="specialisation.html" onclick=$(menu-open).click();>Specialisation</a>
+      </li>
+      <li>
+        <a href="comparison.html" onclick=$(menu-open).click();>Comparison</a>
+      </li>
+      <li>
+        <a href="Mgpreview.html" onclick=$(menu-open).click();>MGP Review</a>
+      </li>
+      <li>
+        <a href="sitevaliation.html" onclick=$(menu-open).click();>Site Validation</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="clearfix"></div>
+
+
+
+
+<ul>
+  <li>Bitcoin</li>
+  <li>Etherium</li>
+  <li>Litecoin</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    // Closes the sidebar menu
+    $("#menu-close").click(function (e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+    });
+
+  </script>
+
+</body>
+
+</html>

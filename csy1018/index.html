@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> </title>
+
+  <link href="styles/style-2.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <a id="menu-toggle" href="" class="">
+    <i class="fa fa-bars fa-5x circlebar"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="" class="btn btn-default btn-lg pull-right toggle">
+        <i class="fa fa-times"></i>
+
+      </a>
+      <li class="sidebar-brand">
+        <a href="index.html" onclick=$(menu-close).click();>Home</a>
+      </li>
+      <li>
+        <a href="grossary.html" onclick=$(menu-open).click();>Glossary</a>
+      </li>
+      <li>
+        <a href="specialisation.html" onclick=$(menu-open).click();>Specialisation</a>
+      </li>
+      <li>
+        <a href="comparison.html" onclick=$(menu-open).click();>Comparison</a>
+      </li>
+      <li>
+        <a href="Mgpreview.html" onclick=$(menu-open).click();>MGP Review</a>
+      </li>
+      <li>
+        <a href="sitevalidation.html" onclick=$(menu-open).click();>SiteValidation</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="clearfix"></div>
+
+  <section id="main-banner">
+    <article>
+
+
+      <div class="container">
+        <div class="text-center">
+
+
+          <img src="images/pimg.jpeg" class="seye" alt="Nguda Seye">
+
+          <h1 class="myname">Nguda Seye</h1>
+
+          <div class="centerline"></div>
+
+          <h2 class="proffession">Networking- Engineering</h2>
+        </div>
+        <div class="standard_warraper">
+          <div class "page_conten_warraper">
+
+            <div class="bio">
+
+              I'm a student currently studying in University of Northampton conputing
+              <br> " I guess for us to really connect, I’ve got to tell you a little bit about myself. I've always been story-teller
+              first, long before i stumble upon computing. it all started with writing silly fictional film when i was younger,
+              until the my day my brother take cyber cafe back in africa helped me dicover anotehr meduim to express myself."
+              Capturing emotions is one of the most&nbsp;important parts of my work. I feel strongly about making photographs
+              that speak to the passing viewers, making them linger for a little while. There’s no surprise that photography
+              is the love of my life, but traveling is also the blood in my veins. I’m endlessly inspired by nature and adventures.
+              I love waking up to new horizons, making friends with people, and exploring the world. I love working with
+              models, brands, fashion bloggers, and artists, so if you think that my photography is a good fit for you, don’t
+              hesitate to I can’t wait for us to make art together and have fun along the way.
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <section id="linkbox">
+
+
+        <div class="myteam">
+        
+          <h1>My Team</h1>
+        
+          <img src="images/Test.jpg" width="50%" align=""> My TeamMy Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My TeamMy
+          Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My TeamMy Team My
+          Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My TeamMy Team My Team My
+          Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My TeamMy Team My Team My Team My
+          Team My Team My Team My Team My Team My Team My Team My Team My Team My Team My TeamMy Team My Team My Team My Team My
+          Team My Team My Team My Team My Team My Team My Team My Team My Team My TeamMy Team My Team My Team My Team My Team My
+          Team My Team My Team My Team My Team My Team My Team My Team My TeamMy Team My Team My Team My Team My Team My Team My
+          Team My Team My Team My Team My Team My Team My Team My TeamMy Team My Team My Team My Team My Team My Team My Team My
+          Team My Team My Team My Team My Team My Team My TeamMy Team My Team My Team My Team My Team My Team My Team My Team My
+          Team My Team My Team My Team My Team
+        
+        </div>
+
+
+        <div class="myteam">
+        
+          <h1>Willim Dasilva  </h1>
+        
+          <img src="images/Test.jpg" width="50%" align=""> this is william one of of team member plays graet role 
+          as part of a member. he lives in west london but currently he stay in compus at water side. he is currently studying computing and bunsiness management. 
+    
+
+        </div>
+
+
+
+          <!--container-->
+      </section>
+
+<footer>
+
+<section id="linkbox">
+  <form>
+
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+
+    <label for="subject">Subject</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+</footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--text-center-->
+      
+      <!--container-->
+    </article>
+  </section>
+
+
+
+  <script>
+
+    // Closes the sidebar menu
+    $("#menu-close").click(function (e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("active");
+    });
+
+  </script>
+
+</body>
+
+</html>
